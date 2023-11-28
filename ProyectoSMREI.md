@@ -24,6 +24,9 @@ Otra página:
 
 Ahora creamos los dominios de configuración de estos sitios.
 
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/fffd769a-300c-487d-b869-1c5a6204e0fa)
+
+
 
 
 
