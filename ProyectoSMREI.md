@@ -9,6 +9,18 @@ Instalamos Apache con: **sudo apt install2**
 
 Creamos dos carpetas,con una página principal para cada una.
 
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/af5687b0-9062-4d52-8423-8fe580316027)
+
+Una página:
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/7ea9b298-219b-43d5-8aba-2cd926c32a8a)
+
+Otra página:
+
+
+
+
+
 
 
 - Activar los módulos necesarios para ejecutar php y acceder a mysql
