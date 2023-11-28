@@ -55,6 +55,8 @@ Ahora creamos los dominios de configuración de estos sitios.
 
 
 
+
+
 - Activar los módulos necesarios para ejecutar php y acceder a mysql
 - Instala y configura wordpress
 - Activar el módulo “wsgi” para permitir la ejecución de aplicaciones Python
