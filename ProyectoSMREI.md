@@ -2,7 +2,14 @@
 
 ### Vamos a instalar un servidor web interno para un instituto.
 - Instalación del servidor web apache. Usaremos dos dominios mediante el archivo hosts: centro.intranet y departamentos.centro.intranet. El primero servirá el contenido mediante wordpress y el segundo una aplicación en python.
-  Instalamos Apache con: **sudo apt install2**
+Instalamos Apache con: **sudo apt install2**
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/bd777988-be0c-4da5-b6ac-5feeaf49dd49)
+
+
+Creamos dos carpetas,con una página principal para cada una.
+
+
 
 - Activar los módulos necesarios para ejecutar php y acceder a mysql
 - Instala y configura wordpress
