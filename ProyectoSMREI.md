@@ -27,6 +27,21 @@ Ahora creamos los dominios de configuración de estos sitios.
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/fffd769a-300c-487d-b869-1c5a6204e0fa)
 
 
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/bc92caa9-a984-4742-adcd-b9fe9f16a10f)
+
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/213b073e-1083-4a17-803e-c7131c7435c5)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/6606c430-c2c5-46df-a967-9d9528d46815)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/9c39c3fb-044a-41ad-beca-1491fe3f0344)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/ed728992-3d80-4c4c-a409-4d222712fa2b)
+
+
+
+
+
 
 
 
