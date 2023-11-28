@@ -9,13 +9,27 @@ Instalamos Apache con: **sudo apt install2**
 
 Creamos dos carpetas,con una página principal para cada una.
 
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/af5687b0-9062-4d52-8423-8fe580316027)
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/486db158-1288-4412-b76b-e2f48a5e8bbe)
+
 
 Una página:
 
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/7ea9b298-219b-43d5-8aba-2cd926c32a8a)
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/6e63be8b-6a10-487c-9073-84fe850197c0)
+
 
 Otra página:
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/6ea27eb9-1dab-4396-8559-1deb46e3b401)
+
+
+Ahora creamos los dominios de configuración de estos sitios.
+
+
+
+
+
+
+
 
 
 
@@ -30,3 +44,5 @@ Otra página:
 - Adicionalmente protegeremos el acceso a la aplicación python mediante autenticación
 - Instala y configura awstat.
 - Instala un segundo servidor de tu elección (nginx, lighttpd) bajo el dominio “servidor2.centro.intranet”. Debes configurarlo para que sirva en el puerto 8080 y haz los cambios necesarios para ejecutar php. Instala phpmyadmin.
+
+**Fin del Proyecto**
