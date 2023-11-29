@@ -52,6 +52,18 @@ Ahora creamos los dominios de configuración de estos sitios.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/7e3a567b-766f-45ec-8926-527bd0181b4f)
 
+Ajustamos los permisos para que apache pueda acceder a ellas y abrir el archivo index.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/84d67e49-3b3e-440b-ae91-c863b11c933c)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/05f0fc03-b287-4cb9-9a8f-4b57b58f9d38)
+
+Habilitamos los VirtualHosts y reiniciamos apache.
+
+
+
+
+
 
 
 
