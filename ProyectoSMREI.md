@@ -58,6 +58,17 @@ Ajustamos los permisos para que apache pueda acceder a ellas y abrir el archivo 
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/05f0fc03-b287-4cb9-9a8f-4b57b58f9d38)
 
+
+** New
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/40cffdde-68ba-4b6c-ad5e-913812ff53a7)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/2482884c-d66c-49ac-8805-6550f6256a0c)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/05e20b51-5640-4f3c-a84d-31c64182a18c)
+
+
+
 Habilitamos los VirtualHosts y reiniciamos apache.
 
 
