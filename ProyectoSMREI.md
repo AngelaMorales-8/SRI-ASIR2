@@ -71,36 +71,33 @@ Ajustamos los permisos para que apache pueda acceder a ellas y abrir el archivo 
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/df683d8f-ff79-4fbd-9625-a5c12e6fd1a6)
 
+** NEW 2
 
+# Práctica Servidores web
+
+### Vamos a instalar un servidor web interno para un instituto.
+- Instalación del servidor web apache. Usaremos dos dominios mediante el archivo hosts: centro.intranet y departamentos.centro.intranet. El primero servirá el contenido mediante wordpress y el segundo una aplicación en python.
+Instalamos Apache con: **sudo apt install2**
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/6ffaec23-0740-4752-93f8-15787cd0fad7)
+
+Con el comando **mkdir** creamos las virtual hosts de cada dominio, en la ruta /var/www
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/6c75264a-3b59-4c21-be35-d43192a7f60f)
+
+Una vez tengamos los directorios, añadimos un archivo index.html a cada uno.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/3cc758bb-a05d-4a66-b177-1160a134b8b7)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/04061bef-017f-4f38-8623-59b85bf4417b)
+
+Configuramos el servidor
 
 
 
 
 
 Habilitamos los VirtualHosts y reiniciamos apache.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
