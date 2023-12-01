@@ -79,7 +79,8 @@ Ajustamos los permisos para que apache pueda acceder a ellas y abrir el archivo 
 - Instalación del servidor web apache. Usaremos dos dominios mediante el archivo hosts: centro.intranet y departamentos.centro.intranet. El primero servirá el contenido mediante wordpress y el segundo una aplicación en python.
 Instalamos Apache con: **sudo apt install2**
 
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/6ffaec23-0740-4752-93f8-15787cd0fad7)
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/f0cfe498-0284-48ee-8f96-7fc73a9baae4)
+
 
 Con el comando **mkdir** creamos las virtual hosts de cada dominio, en la ruta /var/www
 
@@ -91,7 +92,25 @@ Una vez tengamos los directorios, añadimos un archivo index.html a cada uno.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/04061bef-017f-4f38-8623-59b85bf4417b)
 
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/c5f4af3a-1d67-4773-a40d-886c4b146608)
+
+
+
 Configuramos el servidor
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/c5bb87de-c1da-4160-b468-a36bc0066871)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/0cd33834-05ea-4ab3-984f-b4dc91966543)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/11646a16-aa57-4d2a-abc4-632259c8fd00)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/c9a57c6f-1888-4116-addc-e09af443e50d)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/b9b2be88-8346-4a13-a248-25c1646d41ee)
+
+
+
+
 
 
 
