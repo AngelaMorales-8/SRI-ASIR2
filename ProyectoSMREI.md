@@ -166,6 +166,29 @@ Configuramos el servidor
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/2e0279e0-f4ab-4009-bbfc-fbba12b3a030)
 
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/6eaa5a3e-5a92-4050-9c7c-fed4a4c5ae11)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/12985af4-0b45-4cc9-8297-fdb825624bd8)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/38df0f6c-d8a5-49d6-a9d7-3268bb152181)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/cad96ffb-2453-4e4b-99b5-519ff9b90369)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/ebddc97a-8470-42c1-9ec2-7529cce35036)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/4a54f6b4-cbc8-41f2-84a7-fcbebc285c3c)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
