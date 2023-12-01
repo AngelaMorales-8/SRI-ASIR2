@@ -115,6 +115,14 @@ Configuramos el servidor
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/4204a105-b802-4623-8551-d1defd62fb9e)
 
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/69bdf10c-68c8-4916-9a3b-8771f52e79c1)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/a854966a-ef6d-4172-a48b-658bb7086ff8)
+
+
+
+
+
 
 
 Habilitamos los VirtualHosts y reiniciamos apache.
