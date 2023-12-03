@@ -7,6 +7,8 @@ Instalamos Apache con: **sudo apt install2**
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/bd777988-be0c-4da5-b6ac-5feeaf49dd49)
 
+Comprobamos que apache se ha instalado y está funcionando.
+
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/f0cfe498-0284-48ee-8f96-7fc73a9baae4)
 
 
@@ -30,14 +32,11 @@ Utilizamos el comando **a2ensite hosts** para habilitar los hosts. Después de e
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/11646a16-aa57-4d2a-abc4-632259c8fd00)
 
+Entramos en el fichero hosts y añadimos los dominios.
+
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/c9a57c6f-1888-4116-addc-e09af443e50d)
 
-Restauramos apache
-
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/90a7d6f7-7526-4afc-8b92-8f31adda11b4)
-
-- Activar los módulos necesarios para ejecutar php y acceder a mysql.
-  Instalamos mysql,con el comando: apt install-mysql-server.
+Reiniciamos apache
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/b9b2be88-8346-4a13-a248-25c1646d41ee)
 
@@ -47,25 +46,34 @@ Ahora introducimos el dominio que hemos añadido en el navegador que queramos y 
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/6743e0ad-cde9-4bd3-a7f7-6b18f44f9a23)
 
-
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/4204a105-b802-4623-8551-d1defd62fb9e)
+- Activar los módulos necesarios para ejecutar php y acceder a mysql.
+  Instalamos mysql,con el comando: ** apt install-mysql-server. **
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/69bdf10c-68c8-4916-9a3b-8771f52e79c1)
 
+Para confirmar que está instalado escribimos en la línea de comando **mysql** y vemos como entramos en el programa, para luego salir ponemos **exit**.
+
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/a854966a-ef6d-4172-a48b-658bb7086ff8)
 
+Instalamos php con el comando: **apt install php libapache2-mod-php php-mysql**. Con **libapache2-mod-php** Apache gestione archivos php y con php-mysql php se comunica con las bases de datos de mysql.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/11c19593-7ebc-4abe-946c-8dd145decb95)
 
+Comprobamos que está bien instalado con php -v.
+
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/f0c68c76-399b-4dd1-8122-ec9d5219184f)
 
-- Instala y configura wordpress
-
+- Instala y configura wordpress.
+  Configuramos la base de datos. Iniciamos sesión con el usuario root en mysql. Con el parámetro -u indicamos el usuario y con -p indicamos que nos solicite contraseña.
+  
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/ff8d35b3-7eb6-4e3f-90d6-d5285bc8ba3e)
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/f7545aaf-384d-49cb-8fb2-abec93a9c5cd)
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/41ac79f3-e5b0-4030-9e2a-527ef68f722c)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/eb52e2f7-f25f-4266-8b00-3b826df8edc7)
+
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/498d5185-758f-4f3f-99d6-3ae08848bc03)
 
