@@ -118,6 +118,7 @@ Ahora introducimos el dominio que hemos añadido en el navegador que queramos y 
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/579bddf4-1893-4898-b4fa-6a94819c6a04)
 
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/68169f76-d542-4cbc-b8dc-81ba2e1868f3)
 
 
 
