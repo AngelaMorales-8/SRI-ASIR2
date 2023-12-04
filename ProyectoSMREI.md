@@ -145,6 +145,14 @@ Nos situamos en la carpeta que queramos descargar WordPress e introducimos la si
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/68169f76-d542-4cbc-b8dc-81ba2e1868f3)
 
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/e768cdcc-6810-44be-8e84-cef79a80c1fb)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/139e4200-8d04-4e2e-9364-cd26bc8713ee)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/f0c0f8e2-adb3-4e23-ba32-77ca1ce10997)
+
+
+
 
 
 
