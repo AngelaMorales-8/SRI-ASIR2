@@ -47,7 +47,8 @@ Ahora introducimos el dominio que hemos añadido en el navegador que queramos y 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/6743e0ad-cde9-4bd3-a7f7-6b18f44f9a23)
 
 - Activar los módulos necesarios para ejecutar php y acceder a mysql.
-  Instalamos mysql,con el comando: ** apt install-mysql-server. **
+  
+  Instalamos mysql,con el comando: **apt install-mysql-server.**
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/69bdf10c-68c8-4916-9a3b-8771f52e79c1)
 
@@ -68,43 +69,59 @@ Comprobamos que está bien instalado con php -v.
   
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/ff8d35b3-7eb6-4e3f-90d6-d5285bc8ba3e)
 
+Creamos la base de datos, para almacenar el sitio que vamos a mostrar
+
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/f7545aaf-384d-49cb-8fb2-abec93a9c5cd)
+
+Creamos el usuario,para administrar la base de datos.
+
+Con % vamos a tener acceso a todas las máquinas y con identified by establecemos la contraseña.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/41ac79f3-e5b0-4030-9e2a-527ef68f722c)
 
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/eb52e2f7-f25f-4266-8b00-3b826df8edc7)
-
+Damos permisos al usuario.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/498d5185-758f-4f3f-99d6-3ae08848bc03)
+
+Reiniciamos con este comando para que se apliquen los cambios.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/9a8732df-821a-45a3-96a3-b2081780e3f3)
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/b657c66b-227e-4a19-bb51-5e7e4aa299a9)
 
+
+Instalamos extensiones para PHP.
+
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/d7b1c53b-2216-4828-93b4-860bfe0eac49)
 
+
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/c96dc775-4ee4-46c1-ba6f-0b46e0b7bff0)
+
+Entramos en el fichero de virtualhost, escribimos un comando para permtir archivos .htaccess.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/c2bb2d9b-9d20-47f9-8cb6-68a1db75be34)
 
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/0fa8e524-dc1a-496d-91e8-6c9fc0210301)
 
+Con el comando **a2enmod rewrite** habilitamos el módulo de reescritura.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/829a5230-bc9b-44e1-ac8b-1a697304b9e5)
 
-
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/7b270f90-2657-4849-bc00-a8beaf5b773b)
-
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/2e36b4f0-9f9b-4b7f-86a7-92d692674aa8)
-
+Una vez habilitados los cambios, para verificar que no hay errores, usamos apache2ctl configtest.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/fadb26e4-84d6-4e08-904a-54f5bd8125a0)
 
+Descarga de Wordpress
+
+Nos situamos en la carpeta que queramos descargar WordPress e introducimos la siguiente línea de comando. Luego lo descargamos usando tar.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/6b728bd8-e132-4d52-941d-be72b5f82748)
 
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/c007a628-c0bd-4b97-936b-6848c59b53b9)
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/0edafb21-5749-43d5-84a3-b40a047f66ca)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/127359af-f495-46d7-99f0-aad3b95727c9)
+
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/2e0279e0-f4ab-4009-bbfc-fbba12b3a030)
 
