@@ -151,15 +151,59 @@ Nos situamos en la carpeta que queramos descargar WordPress e introducimos la si
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/f0c0f8e2-adb3-4e23-ba32-77ca1ce10997)
 
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/38e94d16-6e00-47a8-8513-3c04c5f140d4)
 
+- Activar el módulo “wsgi” para permitir la ejecución de aplicaciones Python.
+  
+Primero haremos que Apache incorpore un soporte para servir archivos Python, para ello ejecutaremos la línea de comandos:
 
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/283ca721-403b-43a3-ae3d-1a643a33e6eb)
 
-
-
-
-- Activar el módulo “wsgi” para permitir la ejecución de aplicaciones Python
+Reiniciamos apache para que se apliquen los cambios.
+  
 - Crea y despliega una pequeña aplicación python para comprobar que funciona correctamente.
+
+Antes de crear y desplegar la aplicación en Python tenemos que crear los directorios necesarios. Debemos tener un directorio principal destinado a montar toda la aplicación en el cuál añadiremos los distintos directorios de configuración. La arquitectura de este directorio estára dividida en dos partes.
+
+1.Estará destinada al almacenaje de nuestra aplicación Python y será un directorio privado.
+2.Estará destinada a servir el contenido siendo un directorio público en el cuál almacenaremos archivos estáticos.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/fe0e2e9a-efb7-4937-b700-c6693600cf0e)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/25bb6ece-af51-486e-9e08-e55d6eb56eef)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/dd4a4279-1af9-4cd5-8c53-b8f8b0fefb9f)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/d0d1f25a-0a54-41f3-904c-665bbf68b33c)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/e2a0d40a-0fad-4797-afe3-5797e06530bc)
+
+
+
+Ahora crearemos un controlador que será un archivo almacenado en nuestro directorio pythonapp, el cual se encargue de las peticiones realizadas por el usuario. Lo crearemos usando el editor de texto nano.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/7330199b-96c2-4cf7-affd-57a45ed7e52c)
+
+
+
+  
 - Adicionalmente protegeremos el acceso a la aplicación python mediante autenticación
+
+Para poder proteger el acceso a la aplicación de Python tenemos que instalar primero el paquete de utilidades de Apache. En mi caso ya lo tengo y por eso me sale el siguiente mensaje diciendo que ya está instalado en su versión más reciente.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/b0ecf7ca-74d5-46eb-9cdb-4db9b24cb41f)
+
+Ahora crearemos el archivo de la contraseña usando el comando htpasswd. La primera vez que se use este comando debemos añadir la opción -c para crear el passwdfile. Para ello especificamos un nombre de usuario que será el que usaremos más tarde para autenticarnos en la aplicación Python. En mi caso crearé una carpeta llamada password en los archivos de configuración del dominio departamentos.centro.intranet.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/8d5eea91-f227-488f-a0b2-28c20b88daab)
+
+Si visualizamos el contenido de la carpeta donde hemos guardado la contraseña podemos ver el nombre de usuario que hemos creado y junto a él la contraseña cifrada.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/9ed94137-bbb1-4e8d-8fe3-dbb5277f58e8)
+
+Ahora configuraremos el virtualhost para añadir la siguiente directiva.
+
+
 - Instala y configura awstat.
 - Instala un segundo servidor de tu elección (nginx, lighttpd) bajo el dominio “servidor2.centro.intranet”. Debes configurarlo para que sirva en el puerto 8080 y haz los cambios necesarios para ejecutar php. Instala phpmyadmin.
 
