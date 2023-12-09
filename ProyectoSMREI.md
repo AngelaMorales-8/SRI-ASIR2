@@ -180,13 +180,6 @@ Al iniciar sesión ya podemos empezar a configurar páginas en la web de WordPre
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/e2a0d40a-0fad-4797-afe3-5797e06530bc)
 
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/f0c0f8e2-adb3-4e23-ba32-77ca1ce10997)
-
-
-
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/38e94d16-6e00-47a8-8513-3c04c5f140d4)
-
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/fe0e2e9a-efb7-4937-b700-c6693600cf0e)
 
 - Activar el módulo “wsgi” para permitir la ejecución de aplicaciones Python.
   
@@ -195,47 +188,58 @@ Primero haremos que Apache incorpore un soporte para servir archivos Python, par
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/283ca721-403b-43a3-ae3d-1a643a33e6eb)
 
 Reiniciamos apache para que se apliquen los cambios.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/b2e9d417-027b-4b62-866f-1c4528a6cccb)
   
 - Crea y despliega una pequeña aplicación python para comprobar que funciona correctamente.
 
 Antes de crear y desplegar la aplicación en Python tenemos que crear los directorios necesarios. Debemos tener un directorio principal destinado a montar toda la aplicación en el cuál añadiremos los distintos directorios de configuración. La arquitectura de este directorio estára dividida en dos partes.
 
 1.Estará destinada al almacenaje de nuestra aplicación Python y será un directorio privado.
+
 2.Estará destinada a servir el contenido siendo un directorio público en el cuál almacenaremos archivos estáticos.
 
-
-
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/fe0e2e9a-efb7-4937-b700-c6693600cf0e)
 
 
 Ahora crearemos un controlador que será un archivo almacenado en nuestro directorio pythonapp, el cual se encargue de las peticiones realizadas por el usuario. Lo crearemos usando el editor de texto nano.
 
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/5013e426-d0d1-4f0c-9b0b-fc88b2f57141)
+
+Configuramos el virtualhost.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/b785be17-c6f5-4219-84f7-b87d244532e6)
+
+Una vez configurado el virtualhost habilitamos el sitio web y recargamos apache.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/f7a5ee1e-db18-4b04-a270-d1a79dfee703)
+
+- Debemos proteger el acceso a la aplicación para poder proteger el acceso a la aplicación de Python tenemos que instalar primero el paquete de utilidades de Apache. 
+
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/7330199b-96c2-4cf7-affd-57a45ed7e52c)
-
-
-
-  
-- Adicionalmente protegeremos el acceso a la aplicación python mediante autenticación
-
-Para poder proteger el acceso a la aplicación de Python tenemos que instalar primero el paquete de utilidades de Apache. En mi caso ya lo tengo y por eso me sale el siguiente mensaje diciendo que ya está instalado en su versión más reciente.
-
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/b0ecf7ca-74d5-46eb-9cdb-4db9b24cb41f)
 
 Ahora crearemos el archivo de la contraseña usando el comando htpasswd. La primera vez que se use este comando debemos añadir la opción -c para crear el passwdfile. Para ello especificamos un nombre de usuario que será el que usaremos más tarde para autenticarnos en la aplicación Python. En mi caso crearé una carpeta llamada password en los archivos de configuración del dominio departamentos.centro.intranet.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/8d5eea91-f227-488f-a0b2-28c20b88daab)
 
-Si visualizamos el contenido de la carpeta donde hemos guardado la contraseña podemos ver el nombre de usuario que hemos creado y junto a él la contraseña cifrada.
+Si visualizamos el contenido de la carpeta donde hemos guardado la contraseña podemos ver el nombre de usuario que hemos creado y junto a él la contraseña.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/9ed94137-bbb1-4e8d-8fe3-dbb5277f58e8)
 
+Nos pedirá la ruta con el nombre del fichero, un usuario y una contraseña. Una vez creado, configuraremos el VirtualHost de la siguiente manera:
 
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/5013e426-d0d1-4f0c-9b0b-fc88b2f57141)
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/a61665dc-4027-4254-99ac-6500bbd71e90)
 
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/c66a981a-916e-4716-812b-ec60dbac9457)
+Reiniciamos apache y si accedemos a nuestra página nos pedira autenticación para ver el contenido.
+
+Cuando ponemos un usuario y contraseña validos nos permite ver el contenido.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/dacaa430-016c-4e75-877f-ea389e0cf150)
 
 
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/f7a5ee1e-db18-4b04-a270-d1a79dfee703)
 
-Ahora configuraremos el virtualhost para añadir la siguiente directiva.
+
 
 
 - Instala y configura awstat.
