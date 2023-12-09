@@ -201,6 +201,13 @@ Si visualizamos el contenido de la carpeta donde hemos guardado la contraseña p
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/9ed94137-bbb1-4e8d-8fe3-dbb5277f58e8)
 
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/5013e426-d0d1-4f0c-9b0b-fc88b2f57141)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/c66a981a-916e-4716-812b-ec60dbac9457)
+
+
+
 Ahora configuraremos el virtualhost para añadir la siguiente directiva.
 
 
