@@ -239,10 +239,51 @@ Cuando ponemos un usuario y contraseña validos nos permite ver el contenido.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/f7a5ee1e-db18-4b04-a270-d1a79dfee703)
 
-
-
-
 - Instala y configura awstat.
+  
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/13cf72c4-b4d6-4279-abe6-a8f8488c1426)
+
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/45e7155f-fd74-42b8-83c4-868ce90f829a)
+
+Copiamos el archivo de configuración por defecto de awstats para cada servidor en el que lo queramos añadir. Configuramos los siguientes parámetros dentro del fichero usando nano para poder editarlo. Editaremos LogFile,SiteDomain y HostAliases.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/4223ae36-eb2e-4fb9-9307-526a2a0b511d)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/1f606593-ee88-42b4-add3-95034aa32009)
+
+Reiniciamos apache y ejecutararemos el siguiente comando para actualizar los ficheros.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/03e6ef24-a8ff-4135-8712-b940fadeb6c6)
+
+Una vez hecho esto entramos en la ruta establecida de nuestro dominio y podemos ver todas las estadísticas que se muestran.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/c65c619e-d471-4674-80da-cdcdf5ce4d62)
+
+
 - Instala un segundo servidor de tu elección (nginx, lighttpd) bajo el dominio “servidor2.centro.intranet”. Debes configurarlo para que sirva en el puerto 8080 y haz los cambios necesarios para ejecutar php. Instala phpmyadmin.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/8fecb943-81e4-4f3f-9ff5-e6d4ed2c654d)
+
+Para instalar nginx usamos el comando **sudo apt install nginx**
+y lo iniciamos con **sudo systemctl start nginx**
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/ce30636c-c1d2-42f9-8033-17b132c85cfe)
+
+Entramos con el dominio y el puerto que hemos añadido podemos ver como carga nginx
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/c842d892-f3ed-425d-b067-acc14ac054ab)
+
+Instalamos mysql y php.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/509342ec-d7f4-4b40-9b15-cc47048066a4)
+
+Modificamos la configuración
+Si entramos después de haber modificado el fichero de configuración de nginx y activando las siguientes líneas podemos ver como muestra la información de php.
+
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/fad3e642-257a-4c8e-8a2d-bd7b3cb151d6)
+
+
 
 **Fin del Proyecto**
