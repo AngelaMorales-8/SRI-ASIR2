@@ -122,36 +122,71 @@ Nos situamos en la carpeta que queramos descargar WordPress e introducimos la si
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/127359af-f495-46d7-99f0-aad3b95727c9)
 
-
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/2e0279e0-f4ab-4009-bbfc-fbba12b3a030)
+
+Vamos a crear un archivo para añadir los ficheros creados anteriormente.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/6eaa5a3e-5a92-4050-9c7c-fed4a4c5ae11)
 
+Copiaremos el archivo de configuración que lee WordPress usando el de muestra que trae.
+
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/12985af4-0b45-4cc9-8297-fdb825624bd8)
+
+Creamos el archivo en el que se instalar las actualizaciones de Wordpress para que si Wordpress tuviera que hacerlo por su cuenta no tuvieramos problemas con los permisos.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/38df0f6c-d8a5-49d6-a9d7-3268bb152181)
 
+Configurar el directorio de WordPress
+Primero damos permisos al usuario y al grupo www-data que es el que puede escribir archivos de WordPress.
+
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/cad96ffb-2453-4e4b-99b5-519ff9b90369)
+
+Establecemos los permisos a directorios y ficheros de wordpress.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/ebddc97a-8470-42c1-9ec2-7529cce35036)
 
+Ahora vamos a configurar unos cambios en el archivo de configuración principal de WordPress. Vamos a ajustar las claves secretas para proporcionar más seguridad a nuestra instalación. WordPress tiene un generador de estos valores, usaremos el siguiente comando para ejecutarlo.
+
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/4a54f6b4-cbc8-41f2-84a7-fcbebc285c3c)
 
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/7df01eab-9f25-45cf-b4ec-74f414cd881f)
+Ahora copiamos estos valores en el archivo de configuración de WordPress. Lo abrimos con nano.
 
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/125a978e-f25d-4327-be78-581f7b1da401)
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/0c2e01ac-bd0c-4d90-bbf9-ab55630e1ee0)
+
+Buscamos el apartado en el que se encuentran los valores y los copiamos.
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/579bddf4-1893-4898-b4fa-6a94819c6a04)
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/68169f76-d542-4cbc-b8dc-81ba2e1868f3)
 
+Después vamos a ajustar los parámetros de nuestra base de datos en el fichero de configuración, añadiremos nuestro nombre, usuario y contraseña creados anteriormente. Aparte también agregaremos otra línea la cual indica la forma en la que escribirá WordPress en el sistema de archivos. 
+
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/e768cdcc-6810-44be-8e84-cef79a80c1fb)
 
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/139e4200-8d04-4e2e-9364-cd26bc8713ee)
+
+Una vez completado todo si entramos en un navegador usando el dominio creado, se nos abrirá la interfaz gráfica de configuración de WordPress.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/25bb6ece-af51-486e-9e08-e55d6eb56eef)
+
+Rellenamos los campos con nuestros datos y pulsamos instalar.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/dd4a4279-1af9-4cd5-8c53-b8f8b0fefb9f)
+
+Una vez instalado WordPress y ahora podemos iniciar sesión.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/d0d1f25a-0a54-41f3-904c-665bbf68b33c)
+
+Al iniciar sesión ya podemos empezar a configurar páginas en la web de WordPress.
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/e2a0d40a-0fad-4797-afe3-5797e06530bc)
 
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/f0c0f8e2-adb3-4e23-ba32-77ca1ce10997)
 
+
+
 ![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/38e94d16-6e00-47a8-8513-3c04c5f140d4)
+
+![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/fe0e2e9a-efb7-4937-b700-c6693600cf0e)
 
 - Activar el módulo “wsgi” para permitir la ejecución de aplicaciones Python.
   
@@ -168,15 +203,7 @@ Antes de crear y desplegar la aplicación en Python tenemos que crear los direct
 1.Estará destinada al almacenaje de nuestra aplicación Python y será un directorio privado.
 2.Estará destinada a servir el contenido siendo un directorio público en el cuál almacenaremos archivos estáticos.
 
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/fe0e2e9a-efb7-4937-b700-c6693600cf0e)
 
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/25bb6ece-af51-486e-9e08-e55d6eb56eef)
-
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/dd4a4279-1af9-4cd5-8c53-b8f8b0fefb9f)
-
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/d0d1f25a-0a54-41f3-904c-665bbf68b33c)
-
-![image](https://github.com/AngelaMorales-8/SRI-ASIR2/assets/122454505/e2a0d40a-0fad-4797-afe3-5797e06530bc)
 
 
 
